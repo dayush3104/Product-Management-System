@@ -1,0 +1,42 @@
+.root{
+    background-color: #FFE1FF;
+    min-height: 93vh;
+}
+
+.all-items{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0%;
+    align-items: center;
+    padding: 10px;
+}
+
+.search-box{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    color: rgb(111, 106, 106);
+    background-color: #f8c7f8;
+}
+
+.right-item{
+    margin-right: 5% !important;
+    width: 20%;
+}
+
+.bill-btn{
+    padding: 14px !important;
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+    margin-left: 5% !important;
+    min-height: max-content !important;
+    width: 20%;
+    border-radius: 10px;
+    background-color: #7E60BF !important;
+    color: white;
+}
+
+.bill-btn:hover{
+    cursor: pointer;
+    background-color: #433878 !important;
+}
